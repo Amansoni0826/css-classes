@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>Menu bar</title>
+    <style>
+        body {
+            margin: 0px;
+            font-family: sans-serif;
+
+        }
+
+        ul {
+
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+
+        }
+
+        ul.menu {
+            display: flex;
+            background: red;
+        }
+
+        ul.dropwodown {
+            position: absolute;
+            background: blue;
+            left: 0px;
+            display: none;
+        }
+
+        li.has-dropdown {
+            position: relative;
+        }
+
+        li.has-dropdown:hover>ul.dropwodown {
+            display: block;
+        }
+
+
+
+        a {
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            color: #fff;
+        }
+
+        a:hover {
+            background-color: green;
+        }
+
+        ul.dropwodown>li>a {
+            width: 100px;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <ul class="menu">
+
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">About</a></li>
+            <li> <a href="#">Services</a></li>
+            <li class="has-dropdown"> <a href="#">Contact Us</a>
+                <ul class="dropwodown">
+                    <li> <a href="#">Item1</a></li>
+                    <li> <a href="#">Item2</a></li>
+                    <li> <a href="#">Item3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

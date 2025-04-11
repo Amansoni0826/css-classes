@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>Menu bar</title>
+    <style>
+        body {
+            margin: 0px;
+            font-family: sans-serif;
+        }
+        .header {
+            background-color: red;
+        }
+        .header::before,
+        .header::after {
+            clear: both;
+            display: block;
+            content: '';
+        }
+        .site-logo {
+            float:left;
+        }
+
+        ul.menu {
+            margin: 0px;
+            padding: 0px;
+            float:right;
+           
+        }
+
+        ul.menu::before,
+        ul.menu::after {
+            clear: both;
+            display: block;
+            content: '';
+        }
+
+        li {
+            list-style: none;
+            float: left;
+            padding: 10px;
+            display: block;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        li:hover {
+            background-color: blue;
+        }
+
+        img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50px;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="site-logo">
+            <a href="#">
+                <img src="Image-1.jpeg" alt="sorry">
+            </a>
+        </div>
+
+        <ul class="menu">
+
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">About</a></li>
+            <li> <a href="#">Services</a></li>
+            <li> <a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
