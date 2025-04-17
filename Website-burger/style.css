@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.warpper {
+    width: 95%;
+}
+
+.container {
+    background-image: url("images/main-yellow-bg-header.png");
+    height: 825px;
+}
+
+.header-logo {
+    position: relative;
+    padding-top: 53px;
+    padding-left: 57px;
+}
+
+.right-header-logo {
+    float: right;
+    padding-right: 424px;
+    padding-top: 57px;
+}
+
+.right-header-text {
+    float: right;
+    margin-inline-end: -325px;
+    margin-top: 65px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 880px;
+    margin-top: -13px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: flex;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text {
+    /* padding: 0px; */
+    font-family: fantasy;
+    font-size: 18px;
+    margin-left: 79px;
+    margin-top: 148px;
+}
+
+.burger-text h1 {
+    font-size: 123px;
+    padding-left: 59px;
+    position: relative;
+    margin-top: 12px;
+}
+
+.burger-text-2 h1 {
+    margin-left: 58px;
+    font-size: 66px;
+    margin-top: -99px;
+}
+
+.image-right {
+    position: absolute;
+    margin-top: -585px;
+    margin-left: 483px;
+}
+
+.image-right-2 {
+    position: relative;
+    margin-left: 703px;
+    margin-top: -14px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 93px;
+    left: 40px;
+    z-index: 10000;
+    color: white;
+    font-size: 60px;
+}
+
+.main-content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 70px 0px;
+}
+
+.main-content::before,
+.main-content::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.main-content-left {
+    float: left;
+    width: 50%;
+}
+
+.main-content-image-1 {
+    background-image: url(images/burger-image-1.png);
+    width: 92%;
+    height: 421px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 35px;
+    margin-top: -14px;
+}
+
+.main-content-image-1 P {
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    padding-left: 25px;
+    padding-top: 31px;
+}
+
+.main-content-image-1 h1 {
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+    padding-left: 26px;
+    margin-top: -19px;
+}
+
+.main-content-right {
+    float: right;
+    width: 50%;
+}
+
+.main-content-image-2 {
+    background-image: url(images/burger-image-2.png);
+    width: 92%;
+    height: 193px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 26px;
+}
+
+.main-content-image-2 p {
+    color: white;
+    font-size: 19px;
+    font-family: fantasy;
+    padding-left: 29px;
+    padding-top: 16px;
+}
+
+.main-content-image-2 h1 {
+    color: white;
+    font-family: fantasy;
+    font-size: 31px;
+    padding-left: 30px;
+    margin-top: -18px;
+}
+
+.main-content-image-3 {
+    background-image: url(images/burger-image-3.png);
+    width: 92%;
+    height: 193px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 26px;
+}
+
+.main-content-image-3 p {
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    padding-left: 27px;
+    padding-top: 7px;
+}
+
+.main-content-image-3 h1 {
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+    padding-left: 30px;
+    margin-top: -19px;
+}
+
+.main-content-2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-content-2::before,
+.main-content-2::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.main-content-top {
+    text-align: center;
+    justify-content: center;
+}
+
+.main-content-top p {
+    font-size: 20px;
+    font-family: fantasy;
+    background: #FFC84F;
+    display: inline-block;
+    padding: 11px 20px;
+    margin: 4px;
+}
+
+.main-content-top h1 {
+    font-size: 78px;
+    font-family: fantasy;
+    margin: -3px;
+}
+
+.main-content-2-image-2 {
+    display: flex;
+    margin-top: 52px;
+}
+
+.burger-col {
+    width: 33.33%;
+    text-align: center;
+}
+
+.burger-image {
+    height: 275px;
+    width: auto;
+}
+
+button.order-submit {
+    height: 55px;
+    width: 174px;
+    color: white;
+    background: #DF1C1C;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.upcoming-text {
+    display: flex;
+    padding: 70px;
+    box-shadow: 0px 9px 15px #d4cdcd;
+    margin-top: 50px;
+}
+
+.text-left {
+    font-weight: bold;
+}
+
+.text-left p:nth-child(3) {
+    line-height: 30px;
+}
+
+.book-your-table-section {
+    background-image: url(images/bg-with-bootle.png);
+    width: 100%;
+    height: 715px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form-section p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 95px;
+}
+
+.form-section h3 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.form-col {
+    padding: 12px 20px;
+}
+
+input#fname {
+    /* width: 147px; */
+    width: 25%;
+    height: 46px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.bg-red {
+    background-color: red;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+.footer-section {
+    background-image: url(images/footer-bg.png);
+    width: 92%;
+    height: 715px;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+}
+
+.footer-row{
+    margin: 41px;
+    padding-top: 26px;
+    color: white;
+    width: 50%;
+}
+.footer-row p {
+    color: white;
+    padding: 30px 0px;
+}
+.footer-col-p {
+    margin-top: 99px;
+    padding-top: 90px;
+}
+.footer-row-2{
+    margin: 98px;
+    padding-top: 26px;
+    color: white;
+    position: relative;
+}
+.footer-col {
+    padding: 29px 16px;
+    margin-top: 19px;
+}
+/* .footer-row-2 img{
+    padding: 12px 16px;
+} */
