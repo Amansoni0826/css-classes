@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Menu Example
+    </title>
+    <style>
+        body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    background: red;
+}
+
+ul::before, ul::after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+
+li {
+    display: block;
+    padding: 10px;
+    float: left;
+}
+
+li:hover {
+    background: purple;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li> <a href="#">Home</a></li>
+        <li> <a href="#">About</a></li>
+        <li> <a href="#">Services</a></li>
+        <li> <a href="#">Contact Us</a></li>
+    </ul>
+</body>
